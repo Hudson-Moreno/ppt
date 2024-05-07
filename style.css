@@ -1,0 +1,91 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    margin-bottom: 5%;
+}
+
+.main {
+    background: rgb(7, 16, 36);
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.main__title {
+    color: bisque;
+    background-color: rgb(45, 45, 116);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2%;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    font-size: 25px;
+    padding-left: 5%;
+}
+.main__objects {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+.main__fun {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main__fun__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.botao {
+    color: blue;
+    padding: 1rem;
+    font-size: 1.7rem;
+}
+.parent-true {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.children {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    height: 45%;
+    width: auto;
+}
+#tesoura {
+    display: flex;
+}
+#pedra {
+    display: none;
+}
+#papel {
+    display: none;
+}
+.enemy-children {
+    position: absolute;
+    top: 25%;
+    right: 12%;
+    height: 45%;
+    width: auto;
+}
+#enemy-tesoura {
+    display: none;
+}
+#enemy-pedra {
+    display: none;
+}
+#enemy-papel {
+    display: none;
+}

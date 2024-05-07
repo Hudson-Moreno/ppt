@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+    <h1 class="main__title">Pedra, Papel, Tesoura!</h1>
+    <p>Por favor eu espero que dê certo, testa ae siow</p>
+    <section class="main__objects">
+        <img class="main__objects__protagonist" src="./assets/papel.png" alt="papel">
+        <img class="main__objects__protagonist" src="./assets/pedra.png" alt="pedra">
+        <img class="main__objects__protagonist" src="./assets/tesoura.png" alt="tesoura">
+    </section>
+    <p>Aqui vai!</p>
+    <section class="main__fun">
+        <div class="main__fun__buttons">
+            <button class="botao" id="botao-pedra">Pedra</button>
+            <button class="botao" id="botao-papel">Papel</button>
+            <button class="botao" id="botao-tesoura">Tesoura</button>
+        </div>
+        <div class="parent-true">
+            <img class="parent" src="./assets/versus.png" alt="versus">
+                <img class="children" id="papel" src="./assets/papel.png" alt="papel-jogo" style="display: none;">
+                <img class="children" id="pedra" src="./assets/pedra.png" alt="pedra-jogo" style="display: none;">
+                <img class="children" id="tesoura" src="./assets/tesoura.png" alt="tesoura-jogo" style="display: none;">
+                <img class="enemy-children" id="enemy-papel" src="./assets/papel.png" alt="papel-jogo" style="display: none;">
+                <img class="enemy-children" id="enemy-pedra" src="./assets/pedra.png" alt="pedra-jogo" style="display: none;">
+                <img class="enemy-children" id="enemy-tesoura" src="./assets/tesoura.png" alt="tesoura-jogo" style="display: none;">
+        </div>
+        <div>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
